@@ -5,5 +5,12 @@ public class Gratitude_244107060101 {
     }
     public static void main(String[] args) {
         sayThankyou();
+        String expression = "Thankyou...wish you all the best!!";
+        sayAdditionalGreetings(expression);
+    }
+
+    //EXPERIMENT 2
+    public static void sayAdditionalGreetings(String greeting){
+     System.out.println(greeting);   
     }
 }
