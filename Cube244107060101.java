@@ -16,5 +16,5 @@ public class Cube244107060101 {
     static void volumeOfCube(int s){
         int volume = s * s * s;
         System.out.println("Total volume of the cube = " + volume);
-    }
+    }       
 }
