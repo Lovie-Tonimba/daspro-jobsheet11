@@ -11,7 +11,7 @@ public class programKu {
         TampilHinggaKei(Jumlah(bil1, bil2));
     }
     public static void main(String[] args) {
-        int temp = Jumlah(1, 1);
+        int temp = Jumlah(1,1);
         TampilJumlah(temp, 5);
     }
 }
