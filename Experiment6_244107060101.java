@@ -1,20 +1,5 @@
 import java.util.Scanner;
 public class Experiment6_244107060101 {
-    // public static void main(String[] args) {
-    //     Scanner input = new Scanner(System.in);
-    //     int p, l, t, L, vol;
-    //     System.out.print("Input length = ");
-    //     p = input.nextInt();
-    //     System.out.print("Input width = ");
-    //     l = input.nextInt();
-    //     System.out.print("Input height = ");
-    //     t = input.nextInt();
-
-    //     L = p * l;
-    //     System.out.println("Area of the rectangle = " + L);
-    //     vol = p * l * t;
-    //     System.out.println("Volume of the rectangle = " + vol);
-    // }
     static int calculateArea (int l, int w){
         int area = l * w;
         return area;
@@ -33,9 +18,9 @@ public class Experiment6_244107060101 {
         System.out.print("Input height = ");
         t = input.nextInt();
 
-        L = p * l;
+        L = calculateArea(p, l);
         System.out.println("Area of the rectangle = " + L);
-        vol = p * l * t;
+        vol = calculateVolume(t, p, l);
         System.out.println("Volume of the rectangle = " + vol);
     }
 }
